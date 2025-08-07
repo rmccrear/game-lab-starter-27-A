@@ -2,17 +2,17 @@
 
 // animation variables
 var alienAnimation;
-var starAnimation;
+var foodAnimation;
 var platformAnimation1;
 var platformAnimation2;
 var platformAnimation3;
 
 // sprite variables
 var player;
-var star;
+var food;
 var platform1;
 var platform2;
 var platform3;
 
 // Boards
-var score = 25;
+var score = 0;

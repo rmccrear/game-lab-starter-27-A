@@ -23,13 +23,12 @@ function setupSprites() {
   player.width = 50;
 
   // Star is to be replaced with food once the sprites come in
-  star = createSprite(100, 100, 50, 50);
-  star.shapeColor = "aqua";
-  // star.addAnimation('twinkle', starAnimation);
-  // star.velocityX = -1;
-  // star.velocityY = -2;
-  // star.height = 30;
-  // star.width = 30;
+  food = createSprite(100, 100, 50, 50);
+  food.shapeColor = "aqua";
+  food.addAnimation('apple', foodAnimation);
+  food.height = 30;
+  food.width = 30;
+  food.scale = 0.1;
 
   
 }
