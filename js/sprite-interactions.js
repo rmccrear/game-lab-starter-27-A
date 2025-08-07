@@ -1,5 +1,5 @@
 
 function doSpriteInteraction() {
-    // Example Code follows.
-    // Please delete and replace with your own code.
+    player.collide(platform1);
+    player.collide(platform2);
 }
