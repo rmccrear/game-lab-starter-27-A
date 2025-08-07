@@ -1,7 +1,7 @@
 
 function respondToUser() {
 
-    if (player.y >=300){
+    if (player.y <= 100){
         player.velocityY=1
     }
 
