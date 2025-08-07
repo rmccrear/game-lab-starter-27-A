@@ -17,13 +17,13 @@ function setupSprites() {
   // star.width = 30;
 
   // Platform Sprites
-  platform1 = createSprite(100, 350, 100, 10);
-  // platform1.addAnimation()
-  platform1.velocityY = -3;
-  platform2 = createSprite(300, 350, 100, 10);
-  // platform2.addAnimation()
-  platform2.velocityY = -3;
-  platform3 = createSprite(200, 250, 100, 10);
-  // platform3.addAnimation()
-  platform3.velocityY = -3;
+  platformAnimation1 = createSprite(100, 350, 100, 10);
+  // platformAnimation1.addAnimation()
+  platformAnimation1.velocityY = -3;
+  platformAnimation2 = createSprite(300, 350, 100, 10);
+  // platformAnimation2.addAnimation()
+  platformAnimation2.velocityY = -3;
+  platformAnimation3 = createSprite(200, 250, 100, 10);
+  // platformAnimation3.addAnimation()
+  platformAnimation3.velocityY = -3;
 }
