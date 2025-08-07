@@ -26,4 +26,8 @@ function setupSprites() {
   platformAnimation3 = createSprite(200, 250, 100, 10);
   // platformAnimation3.addAnimation()
   platformAnimation3.velocityY = -3;
+
+  //Initialize score
+  score=0
+
 }
