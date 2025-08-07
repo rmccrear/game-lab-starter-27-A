@@ -10,3 +10,4 @@ var platformatAnimation3;
 // sprite variables
 var player;
 var star;
+var Score;
