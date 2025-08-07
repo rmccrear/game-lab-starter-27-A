@@ -10,4 +10,4 @@ var platformAnimation3;
 // sprite variables
 var player;
 var star;
-var Score = 100;
+var Score = 0;
