@@ -10,4 +10,9 @@ var platformAnimation3;
 // sprite variables
 var player;
 var star;
+var platform1;
+var platform2;
+var platform3;
+
+// Boards
 var Score = 0;
