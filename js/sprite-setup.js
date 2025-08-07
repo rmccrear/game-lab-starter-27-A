@@ -30,10 +30,21 @@ function setupSprites() {
   apple.scale = 0.1;
   apple.setCollider('circle', 0, 0, 100);
 
+  broccoli = createSprite(100, 200, 50, 50);
+  broccoli.addAnimation('Broccoli', broccoliAnimation);
+  broccoli.scale = 0.09;
+  broccoli.setCollider('rectangle', 0, -50, 400, 450);
+  
+
   // Bad Food
   pizza = createSprite(200, 100, 50, 50);
   pizza.addAnimation('pizza', pizzaAnimation);
   pizza.scale = 0.034;
   pizza.setCollider('circle', 0, 0, 400);
+
+  cake = createSprite(200, 200, 50, 50);
+  cake.addAnimation('cake', cakeAnimation);
+  cake.scale = 0.06;
+  cake.setCollider('rectangle', 0, 50, 600, 600);
 
 }
