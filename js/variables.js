@@ -3,11 +3,11 @@
 // animation variables
 var alienAnimation;
 var starAnimation;
-var platformatAnimation1;
-var platformatAnimation2;
-var platformatAnimation3;
+var platformAnimation1;
+var platformAnimation2;
+var platformAnimation3;
 
 // sprite variables
 var player;
 var star;
-var score = 0;
+var Score = 100;
