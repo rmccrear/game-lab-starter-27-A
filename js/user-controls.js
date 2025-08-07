@@ -9,15 +9,16 @@ function respondToUser() {
         player.velocityY = player.velocityY + 0.09;
     }
 
-    if(keyWentDown("LEFT")){
-        player.velocityX = -4; 
+    if(keyDown("LEFT")){
+        player.velocityX = -4;
+        
     }
 
     if(keyWentUp("LEFT")){
         player.velocityX = 0;
     }
 
-    if(keyWentDown("RIGHT")){
+    if(keyDown("RIGHT")){
         player.velocityX = 4;
     }
 

@@ -10,7 +10,7 @@ function setupSprites() {
   platform1.scale = 0.18;
   platform1.setCollider('rectangle', -70, -30, 410, 80);
 
-  platform2 = createSprite(300, 350, 100, 10);
+  platform2 = createSprite(300, 300, 100, 10);
   platform2.addAnimation('couch', platformAnimation2);
   platform2.velocityY = -3;
   platform2.scale = 0.27;
