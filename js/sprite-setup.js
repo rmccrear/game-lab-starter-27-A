@@ -22,13 +22,18 @@ function setupSprites() {
   player.height = 50;
   player.width = 50;
 
-  // Star is to be replaced with food once the sprites come in
-  food = createSprite(100, 100, 50, 50);
-  food.shapeColor = "aqua";
-  food.addAnimation('apple', foodAnimation);
-  food.height = 30;
-  food.width = 30;
-  food.scale = 0.1;
+  // Good Food
+  apple = createSprite(100, 100, 50, 50);
+  apple.addAnimation('apple', appleAnimation);
+  apple.height = 30;
+  apple.width = 30;
+  apple.scale = 0.1;
+  apple.setCollider('circle', 0, 0, 100);
 
-  
+  // Bad Food
+  pizza = createSprite(200, 100, 50, 50);
+  pizza.addAnimation('pizza', pizzaAnimation);
+  pizza.scale = 0.034;
+  pizza.setCollider('circle', 0, 0, 400);
+
 }
