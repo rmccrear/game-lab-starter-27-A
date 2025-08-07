@@ -25,9 +25,10 @@ function setupSprites() {
   platform2 = createSprite(300, 350, 100, 10);
   platform2.addAnimation('couch', platformAnimation2);
   platform2.velocityY = -3;
-  platform2.scale = 0.3;
+  platform2.scale = 0.27;
   
   platform3 = createSprite(200, 250, 100, 10);
-  platform3.addAnimation()
+  platform3.addAnimation('tv', platformAnimation3);
   platform3.velocityY = -3;
+  platform3.scale = 0.3;
 }

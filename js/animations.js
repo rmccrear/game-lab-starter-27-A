@@ -6,5 +6,5 @@ function setupAnimations(){
   starAnimation = loadAnimation("../sprites/star-1.png", "../sprites/star-2.png", "../sprites/star-3.png", "../sprites/star-4.png");
   platformAnimation1 = loadAnimation("../sprites/plate.png");
   platformAnimation2 = loadAnimation("../sprites/couch.png");
-  platformAnimation3 = loadAnimation();
+  platformAnimation3 = loadAnimation("../sprites/tv.png");
 }
