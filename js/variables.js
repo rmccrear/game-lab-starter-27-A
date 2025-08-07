@@ -15,4 +15,4 @@ var platform2;
 var platform3;
 
 // Boards
-var Score = 0;
+var score = 0;

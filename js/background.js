@@ -1,6 +1,6 @@
 
 function drawBackground() {
-    if (Score < 25) {
+    if (score < 25) {
         background2();
     } else {
         background1();
