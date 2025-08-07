@@ -15,7 +15,6 @@ function setupSprites() {
   platform2.velocityY = -3;
   platform2.scale = 0.27;
   platform2.setCollider('rectangle', -10, 40, 350, 100)
-  platform2.debug = true
 
   // Player Sprite
   player = createSprite(300, 100, 50, 50);
