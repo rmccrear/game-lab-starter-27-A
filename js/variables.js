@@ -21,4 +21,4 @@ var platform1;
 var platform2;
 
 // Boards
-var score = 25;
+var score = 0;

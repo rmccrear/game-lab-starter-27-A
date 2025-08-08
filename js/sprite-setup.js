@@ -23,26 +23,26 @@ function setupSprites() {
   player.width = 50;
 
   // Good Food
-  apple = createSprite(100, 100, 50, 50);
+  apple = createSprite(randomNumber(50, 350), randomNumber(50, 350), 50, 50);
   apple.addAnimation('apple', appleAnimation);
   apple.height = 30;
   apple.width = 30;
   apple.scale = 0.1;
   apple.setCollider('circle', 0, 0, 100);
 
-  broccoli = createSprite(100, 200, 50, 50);
+  broccoli = createSprite(randomNumber(50, 350), randomNumber(50, 350), 50, 50);
   broccoli.addAnimation('Broccoli', broccoliAnimation);
   broccoli.scale = 0.09;
   broccoli.setCollider('rectangle', 0, -50, 400, 450);
   
 
   // Bad Food
-  pizza = createSprite(200, 100, 50, 50);
+  pizza = createSprite(randomNumber(50, 350), randomNumber(50, 350), 50, 50);
   pizza.addAnimation('pizza', pizzaAnimation);
   pizza.scale = 0.034;
   pizza.setCollider('circle', 0, 0, 400);
 
-  cake = createSprite(200, 200, 50, 50);
+  cake = createSprite(randomNumber(50, 350), randomNumber(50, 350), 50, 50);
   cake.addAnimation('cake', cakeAnimation);
   cake.scale = 0.06;
   cake.setCollider('rectangle', 0, 50, 600, 600);
