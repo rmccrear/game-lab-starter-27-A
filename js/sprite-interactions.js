@@ -4,7 +4,7 @@ function doSpriteInteraction() {
     if(player.y >= 450) {
         player.y = 200;
         player.velocityY = 0;
-        health = health - 10;
+        health = health - 25;
     }
     if(player.x >= 380) {
         player.x = 380;
@@ -53,6 +53,11 @@ function doSpriteInteraction() {
     broccoli.visible = false;
     cake.visible = false;
     pizza.visible = false;
+    cloud.visible = false;
+    cake.x = 500;
+    broccoli.x = 500;
+    apple.x = 500;
+    pizza.x = 500;
     player.x = 200;
     player.y = 200;
     player.scale = 0.7;

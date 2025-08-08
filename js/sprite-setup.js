@@ -11,6 +11,10 @@ function setupSprites() {
   sun.addAnimation('sun', sunAnimation);
   sun.scale = 0.5;
 
+  cloud = createSprite(130, 80, 20, 20);
+  cloud.addAnimation('cloud', cloudAnimation);
+  cloud.scale = 0.4;
+
   friend = createSprite(60, 330, 20, 20);
   friend.addAnimation('friend', friendAnimation);
   friend.scale = 0.2;
