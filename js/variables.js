@@ -27,4 +27,4 @@ var platform2;
 
 // Boards
 var score = 0;
-var health = 100;
+var health = 10;

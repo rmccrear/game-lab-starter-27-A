@@ -40,4 +40,26 @@ function doSpriteInteraction() {
         pizza.y = randomNumber(50, 350);
         score = score - 1;
     }
+
+    // Game Over
+    if(health <= 0){ 
+    background("black");
+    sun.visible = false;
+    friend.visible = false;
+    platform1.visible = false;
+    platform2.visible = false;
+    outside.visible = false;
+    apple.visible = false;
+    broccoli.visible = false;
+    cake.visible = false;
+    pizza.visible = false;
+    player.x = 200;
+    player.y = 200;
+    player.scale = 0.7;
+    fill("red");
+    textSize(20);
+    text("GAME OVER", 144, 40);
+    text("Score :" + score, 150, 370);
+  }
+
 }
