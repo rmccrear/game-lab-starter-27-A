@@ -2,7 +2,7 @@
 function respondToUser() {
 
     if(keyWentDown("UP")){
-        player.velocityY=-6
+        player.velocityY=-6;
     }
 
     if(player.velocityY<4){

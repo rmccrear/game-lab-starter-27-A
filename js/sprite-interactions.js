@@ -1,5 +1,16 @@
 
 function doSpriteInteraction() {
+    //Player Interactions
+    if(player.y >= 450) {
+        player.y = 200;
+        player.velocityY = 0;
+    }
+    if(player.x >= 380) {
+        player.x = 380;
+    }
+    if(player.x <= 20) {
+        player.x = 20;
+    }
     player.collide(platform1);
     player.collide(platform2);
 

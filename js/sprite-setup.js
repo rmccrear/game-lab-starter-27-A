@@ -3,8 +3,14 @@ function setupSprites() {
   // Example Code follows.
   // Please delete and replace with your own code.
 
+  // Background
+  outside = createSprite(200, 200, 200, 200);
+  console.log(outside);
+  outside.addAnimation('fence', fenceAnimation);
+
   // Platform Sprites
   platform1 = createSprite(100, 350, 100, 10);
+  console.log(platform1)
   platform1.addAnimation('plate', platformAnimation1);
   platform1.velocityY = -3;
   platform1.scale = 0.18;
