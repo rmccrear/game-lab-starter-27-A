@@ -2,8 +2,10 @@
 function drawBackground() {
     if (score < 25) {
         background2();
+        sun.visible = true;
     } else {
         background1();
+        sun.visible = false;
     }
 }
 

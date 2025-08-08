@@ -4,6 +4,7 @@ function doSpriteInteraction() {
     if(player.y >= 450) {
         player.y = 200;
         player.velocityY = 0;
+        health = health - 10;
     }
     if(player.x >= 380) {
         player.x = 380;

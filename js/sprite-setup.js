@@ -5,12 +5,18 @@ function setupSprites() {
 
   // Background
   outside = createSprite(200, 200, 200, 200);
-  console.log(outside);
   outside.addAnimation('fence', fenceAnimation);
+
+  sun = createSprite(340, 50, 10, 10);
+  sun.addAnimation('sun', sunAnimation);
+  sun.scale = 0.5;
+
+  friend = createSprite(60, 330, 20, 20);
+  friend.addAnimation('friend', friendAnimation);
+  friend.scale = 0.2;
 
   // Platform Sprites
   platform1 = createSprite(100, 350, 100, 10);
-  console.log(platform1)
   platform1.addAnimation('plate', platformAnimation1);
   platform1.velocityY = -3;
   platform1.scale = 0.18;
@@ -27,6 +33,8 @@ function setupSprites() {
   player.addAnimation('fly', alienAnimation);
   player.height = 50;
   player.width = 50;
+  player.scale = 0.2;
+  player.setCollider('rectangle', 0, 0, 250, 340);
 
   // Good Food
   apple = createSprite(randomNumber(50, 350), randomNumber(50, 350), 50, 50);

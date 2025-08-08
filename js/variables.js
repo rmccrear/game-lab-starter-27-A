@@ -1,6 +1,8 @@
 // Example Code follows.
 
 // animation variables
+var friendAnimation;
+var sunAnimation;
 var fenceAnimation;
 var alienAnimation;
 var appleAnimation;
@@ -11,6 +13,8 @@ var platformAnimation1;
 var platformAnimation2;
 
 // sprite variables
+var friend;
+var sun;
 var outside;
 var player;
 var apple;
@@ -23,3 +27,4 @@ var platform2;
 
 // Boards
 var score = 0;
+var health = 100;
