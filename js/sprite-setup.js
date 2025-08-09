@@ -41,27 +41,31 @@ function setupSprites() {
   player.setCollider('rectangle', 0, 0, 250, 340);
 
   // Good Food
-  apple = createSprite(randomNumber(50, 350), randomNumber(50, 350), 50, 50);
+  apple = createSprite(randomNumber(50, 350), -10, 50, 50);
   apple.addAnimation('apple', appleAnimation);
+  apple.velocityY = randomNumber(1,3);
   apple.height = 30;
   apple.width = 30;
   apple.scale = 0.1;
   apple.setCollider('circle', 0, 0, 100);
 
-  broccoli = createSprite(randomNumber(50, 350), randomNumber(50, 350), 50, 50);
+  broccoli = createSprite(randomNumber(50, 350), -10, 50, 50);
   broccoli.addAnimation('Broccoli', broccoliAnimation);
+  broccoli.velocityY = randomNumber(1,3);
   broccoli.scale = 0.09;
   broccoli.setCollider('rectangle', 0, -50, 400, 450);
   
 
   // Bad Food
-  pizza = createSprite(randomNumber(50, 350), randomNumber(50, 350), 50, 50);
+  pizza = createSprite(randomNumber(50, 350), -10, 50, 50);
   pizza.addAnimation('pizza', pizzaAnimation);
+  pizza.velocityY = randomNumber(1,3);
   pizza.scale = 0.034;
   pizza.setCollider('circle', 0, 0, 400);
 
-  cake = createSprite(randomNumber(50, 350), randomNumber(50, 350), 50, 50);
+  cake = createSprite(randomNumber(50, 350), -10, 50, 50);
   cake.addAnimation('cake', cakeAnimation);
+  cake.velocityY = randomNumber(1,3);
   cake.scale = 0.06;
   cake.setCollider('rectangle', 0, 50, 600, 600);
 
