@@ -30,3 +30,6 @@ var platform2;
 // Boards
 var score = 0;
 var health = 100;
+
+// Random Variable
+var isGameOver;

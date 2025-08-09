@@ -70,6 +70,39 @@ function doSpriteInteraction() {
     textSize(20);
     text("GAME OVER", 144, 40);
     text("Score :" + score, 150, 370);
+    isGameOver = true;
   }
 
+  // Reset the Game
+  if(isGameOver == true) {
+    if(keyWentDown('SPACE')) {
+        isGameOver = false;
+        health = 100;
+        score = 0;
+        sun.visible = true;
+        friend.visible = true;
+        platform1.visible = true;
+        platform2.visible = true;
+        outside.visible = true;
+        apple.visible = true;
+        broccoli.visible = true;
+        cake.visible = true;
+        pizza.visible = true;
+        cloud.visible = true;
+        player.scale = 0.2;
+        player.velocityY = 0;
+        apple.y = -20;
+        apple.x = randomNumber(50, 350);
+        apple.velocityY = randomNumber(1, 3);
+        broccoli.y = -20;
+        broccoli.x = randomNumber(50, 350);
+        broccoli.velocityY = randomNumber(1, 3);
+        pizza.y = -20;
+        pizza.x = randomNumber(50, 350);
+        pizza.velocityY = randomNumber(1, 3);
+        cake.y = -20;
+        cake.x = randomNumber(50, 350);
+        cake.velocityY = randomNumber(1, 3);
+    }
+  }
 }
